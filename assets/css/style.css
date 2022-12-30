@@ -1,0 +1,13 @@
+@import url("header.css");
+@import url("bloco-um.css");
+@import url("bloco-dois.css");
+@import url("bloco-tres.css");
+
+body {
+    width: 90rem;
+    height: 220.875rem;
+    background-image: url(../img/body/Background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}

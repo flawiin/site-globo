@@ -1,0 +1,40 @@
+.bloco-dois {
+    width: 90rem;
+    height: 14.375rem;
+}
+
+.bloco-dois__titulo {
+    text-align: center;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.carrossel {
+    width: 90rem;
+    height: 8.5rem;
+    margin-top: 1.875rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.carrossel__item {
+    width: 66.4375rem;
+    height: 2.3125rem;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    padding-left: 4.375rem;
+}
+
+.swiper-slide {
+    width: 100%;
+    cursor: pointer;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #FFFFFF;
+}

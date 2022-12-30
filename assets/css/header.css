@@ -1,0 +1,64 @@
+.cabecalho {
+    width: 66.8125rem;
+    height: 2.4375rem;
+    margin: 0 auto;
+    padding-top: 2.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cabecalho__logo {
+    width: 8.4375rem;
+    height: 2.4375rem;
+}
+
+.cabecalho__menu {
+    width: 66.8125rem;
+    height: 2.4375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 47px;
+}
+
+.menu__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+  
+.menu__link {
+    text-decoration: none;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+
+.menu__link--bold {
+    font-weight: 700;
+}
+
+.menu__lista--icones {
+    width: 13.3125rem;
+    height: 1.0069rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.625rem;
+    gap: 2.125rem;
+}
+
+.menu__botao {
+    width: 7.5625rem;
+    height: 1.8125rem;
+    background-color: #0031FF;
+    border-radius: 3.125rem;
+    border: none;
+    margin-left: 1.9475rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}

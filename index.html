@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VemPraGlobo</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link href="https://fonts.cdnfonts.com/css/globotipo-condensada?styles=90186,90180,90182" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="/assets/img/header/Logo.svg" alt="logo vempraglobo">
+        <nav class="cabecalho__menu">
+            <ul class="menu__lista">
+                <li><a class="menu__link menu__link--bold" href="#">Conheça a Globo</a></li>
+                <li><a class="menu__link" href="#">Oportunidades</a></li>
+                <li><a class="menu__link" href="#">Política de Privacidade</a></li>
+            </ul>
+            <ul class="menu__lista--icones">
+                <li><a href="#"><img src="/assets/img/header/Linkedin.svg" alt="logo do Linkedin"></a></li>
+                <li><a href="#"><img src="/assets/img/header/Youtube.svg" alt=""></a></li>
+                <li><a href="#"><img src="/assets/img/header/Instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="/assets/img/header/Stack Overflow.svg" alt=""></a></li>
+                <li><a href="#"><img src="/assets/img/header/Glassdoor.svg" alt=""></a></li>
+            </ul>
+            <button class="menu__botao" type="button">Cadastre-se</button>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="bloco-um">
+            <div class="bloco-um__container">
+                <img style="width: 42px; margin-bottom: .5625rem;" src="/assets/img/bloco-tres/Icon.svg" alt="">
+                <h1 class="bloco-um__titulo">vempraglobo</h1>
+                <p class="bloco-um__paragrafo">Vem trabalhar, vem se divertir, vem interagir tudo ao mesmo tempo</p>
+                <button class="bloco-um__botao--um" type="button">Veja as nossas Vagas</button>
+                <button class="bloco-um__botao--dois" type="button">Somos Globo</button>
+            </div>
+            <div class="bloco-um__container-dois" >
+                <img class="bloco-um__imagem-um" src="/assets/img/vempraglobo/MarcosMion.png" alt="">
+            </div>
+            <div class="bloco-um__container-tres">
+                <img class="bloco-um__imagem-dois" src="/assets/img/vempraglobo/1_Shape.png" alt="">
+            </div>
+        </section>
+
+        <section class="bloco-dois">
+            <img style="width: 42px; margin-bottom: .5625rem; margin-left: 50%;" src="/assets/img/bloco-tres/Icon.svg" alt="">
+            <h2 class="bloco-dois__titulo">Conheça nosso portfólio</h2>
+            <div class="carrossel">
+                <div class="carrossel__item">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/tvglobo.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/globoplay.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/globo.com.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/g1.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/ge.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/gshow.png" alt=""></div>
+                          <div class="swiper-slide"><img src="/assets/img/carrossel/gnt.png" alt=""></div>
+                          ...
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloco-tres">
+            <div class="bloco-tres__imagem-container">
+                <img class="bloco-tres__imagem" src="/assets/img/bloco-tres/Group 2.png" alt="#">
+            </div>
+            <div class="bloco-tres__titulo-container">
+                <img style="width: 42px; margin-bottom: 1rem;" src="/assets/img/bloco-tres/Icon.svg" alt="#">
+                <h2 class="bloco-tres__titulo" >Nossa jornada mediatech</h2>
+                <p class="bloco-tres__paragrafo" >
+                    A Globo que construímos unindo as nossas marcas 
+                    TV Globo, Globosat, Globo.com, Globoplay e áreas 
+                    corporativas tem conteúdo e tecnologia andando 
+                    juntos para oferecer as melhores experiências.
+                </p>
+                <button class="bloco-tres__botao" type="button">Saiba mais</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    
+</body>
+</html>

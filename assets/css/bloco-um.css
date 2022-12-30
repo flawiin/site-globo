@@ -1,0 +1,85 @@
+.bloco-um {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 78.3981rem;
+    height: 39.625rem;
+    margin-left: 12.625rem;
+}
+
+.bloco-um__container {
+    margin-top: 11.5rem;
+    width: 35.5625rem;
+    height: 16.25rem;
+}
+
+.bloco-um__titulo {
+    width: 35.5rem;
+    height: 3.9375rem;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-size: 5.625rem;
+    font-weight: 600;
+    line-height: 3.9375rem;
+    color: #FFFFFF;
+}
+
+.bloco-um__paragrafo {
+    width: 26.8125rem;
+    height: 3.875rem;
+    margin-top: 1.8125rem;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 1.925rem;
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+.bloco-um__botao--um {
+    display: inline-block;
+    width: 16.0625rem;
+    height: 3.3125rem;
+    margin-top: 2.375rem;
+    background-color: #00B8FF;
+    border-radius: 3.125rem;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    cursor: pointer;
+    
+}
+
+.bloco-um__botao--dois {
+    width: 11.125rem;
+    height: 3.3125rem;
+    border-radius: 3.125rem;
+    border: #FFFFFF solid 1px;
+    background-color: transparent;
+    margin-left: 17px;
+    font-family: 'Globotipo Rounded', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #FFFFFF;
+    
+}
+
+.bloco-um__container-dois {
+    margin-top: 2.9375rem;
+    width: 25.4375rem;
+    height: 33.4375rem;
+    
+}
+
+.bloco-um__container-tres {
+    position: absolute;
+    top: -10;
+    left: 1224px;
+    z-index: -2;
+}
+
+
