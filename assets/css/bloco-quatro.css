@@ -1,0 +1,20 @@
+.bloco-quatro {
+    width: 72.375rem;
+    height: 40.3569rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bloco-quatro__container-dois {
+    margin-top: 4.625rem;
+}
+
+.bloco-quatro__container-tres {
+    position: absolute;
+    top: 0;
+    left: 43%;
+    top: 244px;
+    z-index: -2;
+}
